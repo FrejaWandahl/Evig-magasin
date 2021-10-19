@@ -15,6 +15,7 @@
   --lightyellow: #fcfbec;
 }
 
+/* baggrundsbillederne styles */
 body {
   background-image: url('forsidebilleder-kopi/mockup-kopi 3.png'),
   url('forsidebilleder-kopi/forside2.png'),
@@ -26,7 +27,7 @@ body {
 
 }
 
-/* Typografi */
+/* Typografi styles */
   h1 {
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
@@ -60,7 +61,6 @@ body {
     font-size: 50px;
   }
 
-
   h5 {
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
@@ -69,24 +69,25 @@ body {
     font-size: 30px;
   }
 
-h6 {
-  background-position: center;
-  text-align: left;
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 400;
-  color: var(--brun);
-  font-size: 30px;
-}
+  h6 {
+    background-position: center;
+    text-align: left;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    color: var(--brun);
+    font-size: 30px;
+  }
 
-p{
-  color: var(--brun);
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 400;
-  text-align: center;
-  font-size: 25px;
-}
+  p{
+    color: var(--brun);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+  }
 
 
+/* Logo i venstre hjørne styles  */
 #logo
 {
   padding-top: 20px;
@@ -94,51 +95,44 @@ p{
   position: absolute;
 }
 
-.menu
-{
+
+/* Menulinje styles */
+.menu{
   background-color: transparent;
   text-align: right;
-
 }
 
-.menu ul
-{
+.menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: inline-flex;
 }
 
-
-.menu ul li
-{
+.menu ul li{
   width: auto;
   margin: 20px;
   padding: 10px;
 }
 
-
-.menu ul li a
-{
+.menu ul li a{
   text-decoration: none;
   color: var(--brun);
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px
 }
 
-
-.mode, .menu ul li:hover
-{
+.mode, .menu ul li:hover{
   background-color: var(--beige);
 }
 
-.submenu1
-{
+
+/* dropdown menu styles  */
+.submenu1{
   display: none;
 }
 
-.menu ul li:hover .submenu1
-{
+.menu ul li:hover .submenu1{
   display: block;
   position: absolute;
   background-color: var(--beige);
@@ -146,14 +140,12 @@ p{
   margin-left: -10px;
 }
 
-.menu ul li:hover .submenu1 ul
-{
+.menu ul li:hover .submenu1 ul{
   display: block;
   margin: 10px;
 }
 
-.menu ul li:hover .submenu1 ul li
-{
+.menu ul li:hover .submenu1 ul li{
   width: 150px;
   padding: 10px;
   border-bottom: 2px solid var(--white);
@@ -161,14 +153,19 @@ p{
   text-align: left;
 }
 
-
-.menu ul li:hover .submenu1 ul li a:hover
-{
+.menu ul li:hover .submenu1 ul li a:hover{
   color: var(--grey);
 }
 
-/*Billeder/artikler*/
+/*Velkomst tekst styles*/
+#velkommen {
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
 
+
+
+/*Billeder/artikler styles*/
 .row {
   display: flex;
   width: 100%;
@@ -189,47 +186,13 @@ p{
   text-align: left;
 }
 
-
-footer {
-  padding: 20px;
-  text-align: center;
-  color: var(--brun);
-  font-family: 'Cormorant Garamond', serif;
-}
-
-.row2 {
-  display: flex;
-  width: 100%;
-}
-
-.column2 {
-  flex: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-top: 10px;
-}
-
-
-.row1 {
-  display: flex;
-  width: 100%;
-}
-
-.column1 {
-  flex: 25%;
-  padding-top: 10px;
-  padding-right: 100px;
-  padding-left: 100px;
-}
-
-
+/*Nyhedsbrev tekst og button styles*/
 .text {
   text-align: center;
   padding-right: 200px;
   padding-left: 200px;
   padding-bottom: 100px;
 }
-
 
 .email {
   background-color: var(--beige);
@@ -258,6 +221,21 @@ footer {
   transition: 0.3s;
 }
 
+
+/* Evig founder billede styles med tekst og button styles  */
+.row2 {
+  display: flex;
+  width: 100%;
+  padding-bottom: 280px;
+}
+
+.column2 {
+  flex: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
 .læsmere:hover {opacity: 10}
 .læsmere {
   background-color: var(--blue);
@@ -269,4 +247,25 @@ footer {
   margin: 4px 2px;
   opacity: 0.6;
   transition: 0.3s;
+}
+
+
+/* Footer styles  */
+footer {
+  padding: 20px;
+  text-align: center;
+  color: var(--brun);
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.row1 {
+  display: flex;
+  width: 100%;
+}
+
+.column1 {
+  flex: 25%;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
