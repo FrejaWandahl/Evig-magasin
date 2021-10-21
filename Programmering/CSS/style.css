@@ -99,6 +99,7 @@ body {
 .menu{
   background-color: transparent;
   text-align: right;
+  padding-right: 120px;
 }
 
 .menu ul {
@@ -181,10 +182,18 @@ footer {
 /*Forside styles under her */
 /*Velkomst tekst styles*/
 #velkommen {
-  padding-bottom: 100px;
+  padding-bottom: 40px;
   padding-top: 20px;
 }
-
+/*Nyeste posts tekst styles*/
+.nyeste {
+  text-align: left;
+  color: var(--brun);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+  padding-left: 300px;
+  padding-bottom: 10px;
+}
 
 
 /*Billeder/artikler styles forside*/
@@ -232,7 +241,7 @@ footer {
 
 .bottom-left {
   position: absolute;
-  bottom: 105px;
+  bottom: 20px;
   left: 322px;
   color: var(--brun);
   background-color: var(--lightyellow);
@@ -243,8 +252,8 @@ footer {
 
 .bottom-center {
   position: absolute;
-  bottom: 105px;
-  left: 613px;
+  bottom: 20px;
+  left: 600px;
   color: var(--brun);
   background-color: var(--lightyellow);
   font-size: 30px;
@@ -254,8 +263,8 @@ footer {
 
 .bottom-right {
   position: absolute;
-  bottom: 105px;
-  left: 910px;
+  bottom: 20px;
+  left: 875px;
   color: var(--brun);
   background-color: var(--lightyellow);
   font-size: 30px;
@@ -354,25 +363,51 @@ footer {
   width: 100%;
 }
 
-.column6 {
+.column30 {
   flex: 50%;
   padding-top: 100px;
-  padding-right: 100px;
   padding-left: 100px;
-  text-align: center;
+  text-align: right;
   font-size: 16px;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
   color: var(--brun);
 }
 
-.fremgangsmåde {
-  display: block;
-  width: 100%;
-  text-align: center;
+.column31 {
+  flex: 50%;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-bottom: 100px;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  color: var(--brun);
 }
 
+.column32 {
+  flex: 10%;
+  padding-top: 100px;
+  padding-left: 100px;
+  text-align: right;
+  font-size: 16px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  color: var(--brun);
+}
 
+.column33 {
+  flex: 90%;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 150px;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  color: var(--brun);
+}
 
 
 /* 4 billeder styles*/
@@ -436,7 +471,7 @@ footer {
 }
 
 /*10 efterårsjakker underside styles under her */
-/* 2 billeder styles*/
+/* 2 billeder med tekst styles*/
 .row11 {
   display:  inline-flex;
   text-align: center;
@@ -455,7 +490,29 @@ footer {
   padding-right: 150px;
 }
 
-/* 2 billeder styles*/
+.bottom1-left {
+  position: absolute;
+  bottom: -335px;
+  left: 252px;
+  color: var(--brun);
+  background-color: var(--lightyellow);
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+}
+
+.bottom1-right {
+  position: absolute;
+  bottom: -335px;
+  left: 788px;
+  color: var(--brun);
+  background-color: var(--lightyellow);
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+}
+
+/* 2 billeder med tekst styles*/
 .row13 {
   display:  inline-flex;
   text-align: center;
@@ -474,7 +531,32 @@ footer {
   padding-right: 150px;
 }
 
-/* 2 billeder styles*/
+
+.bottom2-left {
+  position: absolute;
+  bottom: -850px;
+  left: 252px;
+  color: var(--brun);
+  background-color: var(--lightyellow);
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+}
+
+.bottom2-right {
+  position: absolute;
+  bottom: -850px;
+  left: 788px;
+  color: var(--brun);
+  background-color: var(--lightyellow);
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+}
+
+
+
+/* 2 billeder med tekst styles*/
 .row15 {
   display:  inline-flex;
   text-align: center;
@@ -493,7 +575,30 @@ footer {
   padding-right: 150px;
 }
 
-/* 2 billeder styles*/
+.bottom3-left {
+  position: absolute;
+  bottom: -1364px;
+  left: 252px;
+  color: var(--brun);
+  background-color: var(--lightyellow);
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+}
+
+.bottom3-right {
+  position: absolute;
+  bottom: -1364px;
+  left: 788px;
+  color: var(--brun);
+  background-color: var(--lightyellow);
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+}
+
+
+/* 2 billeder med tekst styles*/
 .row17 {
   display:  inline-flex;
   text-align: center;
@@ -512,7 +617,31 @@ footer {
   padding-right: 150px;
 }
 
-/* 2 billeder styles*/
+.bottom4-left {
+  position: absolute;
+  bottom: -1880px;
+  left: 252px;
+  color: var(--brun);
+  background-color: var(--lightyellow);
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+}
+
+.bottom4-right {
+  position: absolute;
+  bottom: -1880px;
+  left: 788px;
+  color: var(--brun);
+  background-color: var(--lightyellow);
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+}
+
+
+
+/* 2 billeder med tekst styles*/
 .row19 {
   display:  inline-flex;
   text-align: center;
@@ -529,4 +658,26 @@ footer {
   flex: 50%;
   margin: 20px;
   padding-right: 150px;
+}
+
+.bottom5-left {
+  position: absolute;
+  bottom: -2400px;
+  left: 252px;
+  color: var(--brun);
+  background-color: var(--lightyellow);
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+}
+
+.bottom5-right {
+  position: absolute;
+  bottom: -2400px;
+  left: 788px;
+  color: var(--brun);
+  background-color: var(--lightyellow);
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
 }
